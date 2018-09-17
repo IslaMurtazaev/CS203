@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+}
+
+header {
+  background-color: #b8adad;
+  color: #ffff;
+  margin-bottom: 3%;
+  padding: 1%;
+}
+
+h1 {
+  text-transform: uppercase;
+  text-align: center;
+}
+
+h2 {
+  text-transform: uppercase;
+  color: #0f4fc7
+}
+
+img {
+  width: 95%;
+}
+
+p {
+  padding: 1%;
+}
+
+header nav a {
+  padding: 1%;
+  font-size: 1em;
+  color: #000;
+  text-decoration: none;
+}
+
+a:hover {
+  border-radius: 5px;
+  color: #fff;
+  background-color:  #305be7b0;
+}
+
+.left {
+  width: 25%;
+  padding: 1%;
+  float: left;
+}
+
+.right {
+  font-size: 1.2em;
+  padding: 1%;
+  width: 60%;
+  float: right;
+  background-color: #a3919186;
+  margin-right: 10%;
+}
