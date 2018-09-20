@@ -9,6 +9,22 @@ header {
   padding: 1%;
 }
 
+footer {
+  margin-top: 3%;
+  padding: 1%;
+  background-color: #8d6363;
+  text-align: center;
+}
+
+footer li {
+  list-style-type: none;
+}
+
+footer a {
+  text-decoration: none;
+  color: #000;
+}
+
 h1 {
   text-transform: uppercase;
   text-align: center;
@@ -16,11 +32,17 @@ h1 {
 
 h2 {
   text-transform: uppercase;
-  color: #0f4fc7
+  color: #0f4fc7;
+}
+
+section {
+  font-size: 1.2em;
+  width: 80%;
+  margin: auto;
 }
 
 img {
-  width: 95%;
+  width: 60%;
 }
 
 p {
@@ -37,20 +59,5 @@ header nav a {
 a:hover {
   border-radius: 5px;
   color: #fff;
-  background-color:  #305be7b0;
-}
-
-.left {
-  width: 25%;
-  padding: 1%;
-  float: left;
-}
-
-.right {
-  font-size: 1.2em;
-  padding: 1%;
-  width: 60%;
-  float: right;
-  background-color: #a3919186;
-  margin-right: 10%;
+  background-color: #305be7b0;
 }
