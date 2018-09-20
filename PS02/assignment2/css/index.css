@@ -1,0 +1,142 @@
+@font-face {
+  font-family: "Ballpark";
+  src: url("../fonts/ballpark.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Dayrom";
+  src: url("../fonts/dayrom.ttf");
+}
+
+body {
+  background-color: rgba(243, 221, 221, 0.596);
+}
+
+#logo {
+  height: 3em;
+  width: 3em;
+}
+
+#slogan {
+  display: inline;
+  font-family:  'Ballpark', 'Dayrom', Courier, monospace;
+}
+
+header {
+  font-size: 90%;
+  height: 100px;
+  margin-bottom: 3%;
+}
+
+nav {
+  float: right;
+}
+
+nav ul {
+  display: inline-block;
+}
+
+nav ul li {
+  display: inherit;
+}
+
+nav ul li a:hover {
+  color: #fff;
+  background-color: #a36c6c;
+  border-radius: 5px;  
+}
+
+.navbar h2 {
+  float: left;
+}
+
+.navbar nav ul li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 1em;
+}
+
+#banner_image {
+  padding-top: 230px;
+  margin-bottom: 5%;
+  border-radius: 5px;
+  background: url("../images/sanfrancisco.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#banner_description {
+  padding: 1%;
+  color: #ffff;
+  background-color: rgba(0, 0, 0, 0.514);
+  display: flex;
+  direction: column;
+}
+
+#banner_description span {
+  width: 100%;
+}
+
+
+#banner_description a {
+  margin-right: 5%;
+  float: right;
+  color: #ffff;
+  text-decoration: none;
+  padding: 0.3%;
+  border-radius: 5px;
+  background-color: #a51111;
+}
+
+section {
+  margin: 2%;
+}
+
+article {
+  float: left;
+  width: 50%;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+article h1 {
+  display: inline;
+  text-transform: uppercase;
+}
+
+aside {
+  width: 40%;
+  float: right;
+}
+
+footer {
+  display: grid;
+  clear: both;
+  margin-top: 25%;
+  width: 100%;
+}
+
+#tweet {
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+
+#my_pictures {
+  text-align: center;
+  grid-column-start: 3;
+  grid-column-end: 6;
+}
+
+#my_friends {
+  text-align: center;
+  grid-column-start: 6;
+  grid-column-end: 9;
+}
+
+#my_friends li {
+  list-style: none;
+}
