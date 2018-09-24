@@ -21,7 +21,7 @@ body {
 
 #slogan {
   display: inline;
-  font-family:  'Ballpark', 'Dayrom', Courier, monospace;
+  font-family: "Ballpark", "Dayrom", Courier, monospace;
 }
 
 header {
@@ -45,7 +45,7 @@ nav ul li {
 nav ul li a:hover {
   color: #fff;
   background-color: #a36c6c;
-  border-radius: 5px;  
+  border-radius: 5px;
 }
 
 .navbar h2 {
@@ -81,7 +81,6 @@ nav ul li a:hover {
   width: 100%;
 }
 
-
 #banner_description a {
   margin-right: 5%;
   float: right;
@@ -98,8 +97,9 @@ section {
 
 article {
   float: left;
-  width: 50%;
-  border-radius: 5px;
+  width: 70%;
+  padding: 1%;
+  border-radius: 10px;
   background-color: #fff;
 }
 
@@ -109,8 +109,28 @@ article h1 {
 }
 
 aside {
-  width: 40%;
+  font-size: 1em;
+  background-color: #665959;
+  color: #ffff;
+  padding: 1%;
+  border-radius: 5px;
+  width: 24%;
   float: right;
+}
+
+aside h1 {
+  text-transform: uppercase;
+}
+
+#author-img {
+  border: 2px solid #000;
+  width: 50%;
+  margin-left: 25%;
+}
+
+aside li {
+  display: inline;
+  list-style: none;
 }
 
 footer {
@@ -118,6 +138,11 @@ footer {
   clear: both;
   margin-top: 25%;
   width: 100%;
+}
+
+footer h1 {
+  text-transform: uppercase;
+  font-size: 150%;
 }
 
 #tweet {
@@ -131,12 +156,36 @@ footer {
   grid-column-end: 6;
 }
 
+#cities li {
+  border-radius: 5px;
+  display: inline;
+  list-style: none;
+}
+
 #my_friends {
+  display: grid;
+  width: 40%;
+  padding: 1%;
   text-align: center;
   grid-column-start: 6;
   grid-column-end: 9;
 }
 
+#my_friends h1 {
+  grid-column-start: 1;
+  grid-column-end: 9;
+}
+
+#friends1 {
+  grid-column-start: 1;
+  grid-column-end: 5;
+}
+
+#friends2 {
+  grid-column-start: 5;
+  grid-column-end: 9;
+}
+
 #my_friends li {
-  list-style: none;
+  list-style-image: url("../images/external_link.png"); 
 }
